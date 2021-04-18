@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+		<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+		<title>Frontend Mentor | Profile card component</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body class="fixed">
+		<!-- container -->
+		<main class="container bg-transparent center fixed flex flex-center absolute">
+			<!-- card -->
+			<div class="card bg-white br4 shadow-2 grow flex flex-dir-col flex-between">
+				<div id="bg-img" class="h-40 w-100">
+					<img src="./images/bg-pattern-card.svg" alt="patter background" class="br-top-3 w-100">
+				</div>
+				<div class="h-60 w-100 pa4 flex flex-dir-col flex-between">
+					<!-- Pic -->
+					<div>
+						<img src="./images/image-victor.jpg" alt="profile" title="profile-picture" class="br-100 shadow-2 b-white absolute pfp">
+					</div>
+					<!-- Main info -->
+					<div>
+						<p class="f3-con">Victor Crest, <span class="f4">26</span></p>
+						<p class="f4">London</p>
+					</div>
+					<!-- Social info -->
+					<div>
+						<hr class="mh2">
+						<div class="flex flex-dir-row flex-between">
+							<div class="box" id="">
+								<p class="f4">1.6m</p>
+								<span>Likes</span>
+							</div>
+							<div class="box" id="">
+								<p class="f4">800k</p>
+								<span>Followers</span>
+							</div>
+							<div class="box" id="">
+								<p class="f4">1.4k</p>
+								<span>Photos</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
